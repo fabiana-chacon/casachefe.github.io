@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
+
+
+body {
+    font-family: 'Delius Swash Caps', cursive;
+    background: url("fundocozinha.jpg");
+
+}
+
+header{
+
+    padding: 20px 0;
+}
+
+.caixa{
+position: fixed;
+top: 0;
+left: 0px;
+width: 100%;
+margin: 0 auto;
+background: rgb(255,210,225) ;
+text-align: center;
+}
+
+.cozinheiro{
+top: 0;
+left: 200px;
+width: 7%;
+position: inherit;
+
+}
+h1{
+    color:black;
+}
+
+nav{
+    top: 80px;
+    right:100%;
+}
+nav li{
+
+    display: inline;
+    margin: 250px 120px 400px 15px;
+    font-size: 22px;
+    color:black;
+
+}
+
+
+.tituloprincipal{
+    text-align: center;
+    font-size: 34px;
+}
+
+
+.principal {
+    padding: 50px 0 ;
+    width: 900px;
+    margin: 0 auto;
+    font-size: 35px;
+    
+}
+
+
+p .blocktext{ 
+margin-left: auto;
+margin-right: auto;
+    
+}
+
+
+.conteudo-beneficio{
+   padding: 15px;
+   margin-left: 200px;
+    font-size: 25px;
+}
+
+.cupcacke{
+display: inline-block;
+text-align: center;
+
+}
+.lista-beneficios{
+
+    width: auto;
+    display:inline-block;
+    vertical-align: top;
+    padding: 0 50px;
+    font-size: 25px;
+}
+.video{
+    width:560px;
+    margin: 6rem auto;
+}
+
+.itens:before{
+    content: "🟊";
+color: rgb(240, 4, 248);
+}
+   
+   
+    .itens{
+        line-height: 1.5;
+        list-style: none;
+    }
+.itens:hover{
+color: chartreuse;
+
+}
+
+
+
+.jogo-receita li {
+
+    display: inline-block;
+    text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 0  1.5%;
+   padding: 30px 20px;
+   box-sizing: border-box;
+   border: 10px solid black;
+   border-radius: 130px;
+}
+
+.jogo-receita li:hover {
+
+    border-color: yellow;
+
+}
+
+.jogo-receita li:active {
+
+   border-color: green;
+
+}
+
+.jogo-receita li:hover h2 {
+font-size: 34px;
+
+}
+
+
+.jogo-receita h2 {
+
+     font-size: 30px;
+     font-weight: bold;
+
+}
+.jogo-receita {
+
+font-size: 18px;
+
+}
+
+
+    footer{
+    text-align: center;
+    background: white;
+
+    }
+
+    .copyright{
+     margin-bottom: -10px;
+        width: auto;
+        font-size:13px;
+    
+        
+    }
